@@ -20,8 +20,7 @@ def timer(wrapped_function):
 def foobat():
   print('foobat')
   
-f = some_decorator(foobat)
-
+# f = some_decorator(foobat)
 # f()
 
 # The decorator syntax simplifies this by indicating which function should be wrapped by decorating it with @decorator_name. Here is an example using the decorator syntax with our some_decorator function:
